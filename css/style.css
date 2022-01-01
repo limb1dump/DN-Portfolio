@@ -65,7 +65,8 @@ body {
 }
 
 .wrapper {
-
+    max-width: 100%;
+    overflow: hidden;
 }
 .content {
 
@@ -155,4 +156,7 @@ color: #828282;
     margin-bottom: 104px;
 }
 
+.bio__pic img {
+    max-width: 100%;
+}
 /*----------------------------------*/
