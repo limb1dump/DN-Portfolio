@@ -1,0 +1,158 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:link {text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+
+
+
+/* fonts */
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(../fonts/Gilroy-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url(../fonts/Gilroy-Medium.woff) format('woff');
+}
+
+/*----------------------------------*/
+
+
+
+
+
+body {
+    font-family: "Gilroy-Medium";   
+}
+
+.wrapper {
+
+}
+.content {
+
+}
+
+
+
+
+
+/*menu*/
+
+.menu {
+
+}
+
+.container {
+    max-width: 943.61px;
+    margin: 0px auto;
+}
+
+.menu__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+    border-bottom: 1px solid #828282;
+    margin: 0 0 28px 0;
+}
+
+.menu__option {
+font-family: Gilroy-Bold;
+font-size: 18px;
+line-height: 22px;
+color: #828282;
+}
+
+.menu__option:hover {
+    color: black;
+    cursor: pointer;
+    
+}
+
+/*----------------------------------*/
+
+
+
+
+
+/* bio info and pic */
+
+.bio {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio__row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    align-items: flex-end;
+}
+
+.bio__name {
+    font-family: Gilroy-Bold;
+    font-size: 47px;
+    line-height: 59px;   
+}
+
+.bio__age {
+    font-size: 18px;
+    line-height: 22px;
+
+} 
+
+.bio__lang {
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    line-height: 20px;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg); 
+}
+
+.bio__lang_ru {
+    color: #828282;
+}
+
+.bio__pic {
+    margin-bottom: 104px;
+}
+
+/*----------------------------------*/
