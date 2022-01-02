@@ -68,6 +68,7 @@ body {
     max-width: 100%;
     overflow: hidden;
 }
+
 .content {
 
 }
@@ -83,14 +84,14 @@ body {
 }
 
 .container {
-    max-width: 943.61px;
+    max-width: 963.61px;
     margin: 0px auto;
 }
 
 .menu__row {
     display: flex;
     justify-content: space-between;
-    padding: 32px 0;
+    padding: 32px 10px;
     border-bottom: 1px solid #828282;
     margin: 0 0 28px 0;
 }
@@ -124,8 +125,9 @@ body {
 .bio__row {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding: 0 10px 50px 10px;
     align-items: flex-end;
+    
 }
 
 .bio__name {
@@ -153,6 +155,7 @@ body {
 }
 
 .bio__pic {
+    padding: 0 10px;
     margin-bottom: 104px;
 }
 
@@ -184,6 +187,7 @@ body {
 } 
 
 .about__body { 
+    padding: 0 10px;
 } 
 
 .about__text {
@@ -222,9 +226,8 @@ body {
 }
 
 .skills__skill-tools {
-    padding-bottom: 110px;
+    padding:0 10px 110px 10px;
     display: flex;
-    
 }
 
 .skills__skill-prog {
@@ -320,7 +323,7 @@ body {
 }
 
 .portfolio__img {
-    padding-bottom: 45px;
+    padding: 0 10px 45px 10px;
 }
 
 .portfolio__img img {
@@ -390,7 +393,7 @@ body {
 .contact__social-row {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 46px;
+    padding: 0 10px 46px 10px;
 }
 
 .contact__social {
