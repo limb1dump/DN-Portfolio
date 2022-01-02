@@ -160,3 +160,43 @@ color: #828282;
     max-width: 100%;
 }
 /*----------------------------------*/
+
+
+
+
+
+/* about me */
+
+.about {
+    background-color: #F6F6F6;
+    ;
+}
+
+.container__about {
+    max-width: 485px;
+    margin: 0px auto;
+}
+
+.about__title {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    padding: 120px 0 27px 0;
+    text-align: center;
+} 
+
+.about__body { 
+} 
+
+.about__text {
+    font-size: 18px;
+    line-height: 18.5px;
+    text-align: center;
+    padding-bottom: 52px;
+}
+
+.about__text:last-child {
+    padding-bottom: 110px
+}
+
+
+/*----------------------------------*/
