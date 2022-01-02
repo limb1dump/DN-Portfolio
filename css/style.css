@@ -340,3 +340,112 @@ body {
 
 /*----------------------------------*/
 
+
+
+
+/*contacts*/
+
+.contact {
+    
+}
+
+.container__contacts {
+    max-width: 342px;
+    margin: 0 auto;
+}
+
+.contact__title {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    text-align: center;
+    padding: 115px 0 29px 0;
+}
+
+.contact__text {
+    font-size: 18px;
+    padding-bottom: 29px;
+    text-align: center;
+}
+
+.contact__button {
+    max-width: 185px;
+    background-color: black;
+    border-radius: 20px ;
+    margin: 0 auto;
+    margin-bottom: 86px;
+}
+
+.contact__button:hover {
+    cursor: pointer;
+}
+
+.contact__button-text{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    padding: 13px 0;
+    color: white;
+    text-align: center;
+}
+
+.contact__social-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 46px;
+}
+
+.contact__social {
+
+}
+
+.contact__social-main {
+    position: relative;
+}
+
+.contact__social-main:hover {
+    cursor: pointer; 
+}
+
+.contact__social-inner_LN1 {
+    position: absolute;
+    top: 9.01px;
+    left: 11.05px;
+}
+
+.contact__social-inner_LN2 {
+    position: absolute;
+    top: 15.67px;
+    left: 11.05px;
+}
+
+.contact__social-inner_LN3 {
+    position: absolute;
+    top: 14.75px;
+    left: 17.96px;
+}
+
+.contact__social-inner_BH1 {
+    position: absolute;
+    top: 11.8px;
+    left: 7.13px;
+}
+
+.contact__social-inner_BH2 {
+    position: absolute;
+    top: 11.8px;
+    left: 22.41px;
+}
+
+.contact__social-inner_BH3 {
+    position: absolute;
+    top: 16.80px;
+    left: 21.23px;
+}
+
+.contact__sub {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding-bottom: 123px;
+}
+
+/*----------------------------------*/
