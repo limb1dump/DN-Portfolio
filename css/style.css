@@ -298,3 +298,45 @@ body {
 }
 
 /*----------------------------------*/
+
+
+
+
+/*portfolio*/
+
+.portfolio {
+    background: #F6F6F6;
+}
+
+.portfolio__title {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    text-align: center;
+    padding: 113px 0 47px 0;
+}
+
+.portfolio__work {
+    padding-bottom: 99px;
+}
+
+.portfolio__img {
+    padding-bottom: 45px;
+}
+
+.portfolio__img img {
+    max-width: 100%;
+}
+
+.portfolio__sub {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.portfolio__sub:hover {
+    cursor: pointer;
+}
+
+/*----------------------------------*/
+
