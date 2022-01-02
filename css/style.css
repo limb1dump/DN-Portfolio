@@ -59,6 +59,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 
+/*main*/
 
 body {
     font-family: "Gilroy-Medium";   
@@ -70,8 +71,9 @@ body {
 }
 
 .content {
-
 }
+
+/*----------------------------------*/
 
 
 
@@ -80,7 +82,6 @@ body {
 /*menu*/
 
 .menu {
-
 }
 
 .container {
@@ -105,8 +106,15 @@ body {
 
 .menu__option:hover {
     color: black;
-    cursor: pointer;
-    
+    cursor: pointer; 
+}
+
+@media (max-width:375px) {
+
+    .menu {
+        display: none;
+    }
+
 }
 
 /*----------------------------------*/
@@ -139,7 +147,6 @@ body {
 .bio__age {
     font-size: 18px;
     line-height: 22px;
-
 } 
 
 .bio__lang {
@@ -162,6 +169,85 @@ body {
 .bio__pic img {
     max-width: 100%;
 }
+
+@media (max-width:375px) {
+
+    .bio {
+        display: none;
+    }
+
+}
+
+/*----------------------------------*/
+
+
+
+
+/* bio and menu adaptive */
+
+.bio-adapt {
+    display: none;
+}
+
+.container__bio-adapt {
+    max-width: 340px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.bio-adapt__row {
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+}
+
+.bio-adapt__body {
+}
+
+.bio-adapt__name {
+    font-family: Gilroy-Bold;
+    font-size: 47px;
+    padding-bottom: 23px;
+}
+
+.bio-adapt__age {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 38px;
+}
+
+.bio-adapt__menu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7px;
+}
+
+.bio-adapt__line {
+    font-size: 0px;
+    padding-bottom: 3.84px;
+}
+
+.bio-adapt__line:last-child {
+    padding-bottom: 0px;
+}
+
+.bio-adapt__pic {
+    padding-bottom: 83px;
+}
+
+.bio-adapt__pic img {
+    max-width: 100%;
+}
+
+@media (max-width:375px) {
+
+    .bio-adapt {
+        display: block
+    }
+
+}
+
 /*----------------------------------*/
 
 
@@ -201,6 +287,19 @@ body {
     padding-bottom: 110px
 }
 
+@media (max-width:375px) {
+
+    .about__title {
+        padding: 81px 0 37px 0;
+        text-align: center;
+    } 
+
+    .about__text:last-child {
+        padding-bottom: 76px;
+    }
+
+}
+
 /*----------------------------------*/
 
 
@@ -209,7 +308,6 @@ body {
 /*skills*/
 
 .skills {
-
 }
 
 .skills__title {
@@ -300,6 +398,36 @@ body {
     padding-bottom: 40px;
 }
 
+@media (max-width:767px) {
+
+    .skills__skill-tools {
+        flex-wrap: wrap;
+        padding-bottom: 17px;
+    }
+
+    .skills__skill-prog {
+        flex: 0 1 50%;
+        padding-bottom: 81px; 
+    } 
+
+}
+
+@media (max-width:375px) {
+
+    .skills__skill-tools {
+        flex-direction: column;
+    }
+
+    .skills__title {
+        padding: 83px 0 50px 0;
+    }
+
+    .skills__text {
+        padding-bottom: 70px;
+    }
+
+}
+
 /*----------------------------------*/
 
 
@@ -341,6 +469,22 @@ body {
     cursor: pointer;
 }
 
+@media (max-width:375px) {
+
+    .portfolio__title {
+        padding: 81px 0 74px 0;
+    }
+
+    .portfolio__img {
+        padding: 0 10px 33px 10px;
+    }
+
+    .portfolio__work {
+        padding-bottom: 78px;
+    }
+
+}
+
 /*----------------------------------*/
 
 
@@ -349,7 +493,6 @@ body {
 /*contacts*/
 
 .contact {
-    
 }
 
 .container__contacts {
@@ -397,7 +540,6 @@ body {
 }
 
 .contact__social {
-
 }
 
 .contact__social-main {
@@ -449,6 +591,48 @@ body {
     line-height: 17px;
     text-align: center;
     padding-bottom: 123px;
+}
+
+@media (max-width:375px) {
+
+    .contact__title {
+        padding: 82px 0 35px 0;
+    }
+
+    .contact__button {
+        margin-bottom: 48px;
+    }
+
+    .contact__social-row {
+        padding: 0 10px 48px 10px;
+    }
+
+    .contact__sub {
+        padding-bottom: 100px;
+    }
+
+}
+
+/*----------------------------------*/
+
+
+
+
+/*container media queries*/
+
+@media (max-width:992px) {
+
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px) {
+
+    .container {
+        max-width: none;
+    }  
+     
 }
 
 /*----------------------------------*/
