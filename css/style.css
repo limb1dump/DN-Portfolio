@@ -96,10 +96,10 @@ body {
 }
 
 .menu__option {
-font-family: Gilroy-Bold;
-font-size: 18px;
-line-height: 22px;
-color: #828282;
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
 }
 
 .menu__option:hover {
@@ -169,7 +169,6 @@ color: #828282;
 
 .about {
     background-color: #F6F6F6;
-    ;
 }
 
 .container__about {
@@ -198,5 +197,104 @@ color: #828282;
     padding-bottom: 110px
 }
 
+/*----------------------------------*/
+
+
+
+
+/*skills*/
+
+.skills {
+
+}
+
+.skills__title {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    text-align: center;
+    padding: 91px 0 69px 0;
+}
+
+.skills__text {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 84px;
+}
+
+.skills__skill-tools {
+    padding-bottom: 110px;
+    display: flex;
+    
+}
+
+.skills__skill-prog {
+    flex: 0 1 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__prog-icon {
+    display: flex;
+    padding-bottom: 24px;
+    
+}
+
+.skills__prog-icon_BG {
+    position: relative;
+}
+
+.skills__prog-icon_icon {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+}
+
+.skills__prog-icon_PS {
+    position: absolute;
+    top: -4px;
+    left: -3px;
+}
+
+.skills__prog-name {
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.skills__prog-rate {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -4.5px;
+}
+
+.skills__star {
+    padding: 0 4.5px;
+}
+
+.skills__grey-star {
+    padding: 0 4.5px;
+}
+
+.skills__figma {
+    display: flex;
+}
+
+.skills__figma-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills__prog-name_figma {
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    line-height: 23px;
+    color: #828282;
+    text-align: center;
+    padding-bottom: 40px;
+}
 
 /*----------------------------------*/
